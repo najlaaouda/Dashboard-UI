@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dashboard</title>
+  <link rel="stylesheet" href="mainStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+</head>
+
+<body>
+  <!-- start Sidebar -->
+  <div class="sidebar">
+    <div class="logo">
+      <img src="assets/Logo.png" alt="logo">
+    </div>
+    <ul class="menu">
+      <li class="active"><a href="#"><i class="fa-solid fa-bars"></i><span>Overview</span></a>
+      </li>
+      <li><a href="#"><i class="fa-solid fa-chart-simple"></i><span>Chart</span></a>
+      </li>
+      <li><a href="#"><i class="fa-solid fa-wallet"></i><span>Transactions</span></a>
+      </li>
+      <li><a href="#"><i class="fa-solid fa-money-bill"></i><span>wallet</span></a>
+      </li>
+      <li><a href="#"><i class="fa-regular fa-comment"></i><span>News</span></a>
+      </li>
+      <li><a href="#"><i class="fa-regular fa-envelope"></i> Mail Box</a>
+      </li>
+      <li class="setting"><a href="#"><i class="fa-regular fa-envelope"></i> Setting</a>
+      </li>
+      <li class="logout"><a href="#"><i class="fa-solid fa-right-from-bracket"></i>logout</a>
+      </li>
+    </ul>
+  </div>
+  <!-- End Sidebar -->
+
+  <!-- start header -->
+  <div class="header--wrapper">
+    <h1>Dashboard</h1>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+      <i class="fa-solid fa-magnifying-glass  search-bar__icon"></i>
+    </div>
+    <div class="icon-header">
+      <a href="#" class="not-icon"><img src="assets/Icon.png" alt="not"></a>
+      <a href="#" class="user">
+        <div class="user-info"></div>
+        <span>Courtney Henry</span>
+      </a>
+    </div>
+  </div>
+  <!-- end header -->
+
+  <!-- Start Main  -->
+  <div class="main">
+
+    <div class="card bitcoin">
+      <div class="bitcoin__container">
+        <div class="bitcoin__container__image">
+          <img src="assets/bitcoin-(btc).png" alt="bitcoin-logo">
+        </div>
+        <div class="text">
+          <h4>Bitcoin</h4>
+          <p>BTC</p>
+        </div>
+        <div><img src="assets/arrow-up.png" alt="arrow"></div>
+      </div>
+
+      <div class="bitcoin__container">
+        <div class="total">
+          <h3>$52,291</h3>
+          <p class="success">+0.25%</p>
+        </div>
+        <div class="graph"><img src="assets/graph.png" alt="graph"></div>
+      </div>
+    </div>
+    <div class="card litecoin">
+      <div class="litecoin__container">
+        <div class="litecoin__container__image">
+          <img src="assets/litecoin(ltc).png" alt="litecoin-logo">
+        </div>
+        <div class="text">
+          <h4>Litecoin</h4>
+          <p>ITC</p>
+        </div>
+        <div><img src="assets/arrow-up.png" alt="arrow"></div>
+      </div>
+
+      <div class="litecoin__container">
+        <div class="total">
+          <h3>$52,291</h3>
+          <p class="success">+0.25%</p>
+        </div>
+        <div class="graph"><img src="assets/graph1.png" alt="graph"></div>
+      </div>
+
+    </div>
+    <div class="card Ethereum">
+      <div class="Ethereum__container">
+        <div class="Ethereum__container__image">
+          <img src="assets/ethereum-(eth).png" alt="Ethereum-logo">
+        </div>
+        <div class="text">
+          <h4>Ethereum</h4>
+          <p>ETH</p>
+        </div>
+        <div><img src="assets/arrow-up.png" alt="arrow"></div>
+      </div>
+
+      <div class="Ethereum__container">
+        <div class="total">
+          <h3>$52,291</h3>
+          <p class="success">+0.25%</p>
+        </div>
+        <div class="graph"><img src="assets/graph.png" alt="graph"></div>
+      </div>
+    </div>
+    <div class="card Solana">
+      <div class="Solana__container">
+        <div class="Solana__container__image">
+          <img src="assets/solana-(sol).png" alt="Solana-logo">
+        </div>
+        <div class="text">
+          <h4>Solana</h4>
+          <p>ETH</p>
+        </div>
+        <div><img src="assets/arrow-down.png" alt="down"></div>
+      </div>
+      <div class="Solana__container">
+        <div class="total">
+          <h3>$52,291</h3>
+          <p class="error">+0.25%</p>
+        </div>
+        <div class="graph"><img src="assets/graphs.png" alt="graph"></div>
+      </div>
+    </div>
+    <div class="card credit-card">
+      <div class="credit-card__header">
+        <span>Credit Card</span>
+        <img src="assets/chip.png" alt="chip">
+      </div>
+      <div class="credit-card__body">
+        <h3>1256 3336 2225 2222</h3>
+      </div>
+      <div class="credit-card__footer">
+        <span>DARELLE STWERD</span>
+        <h3>VISA</h3>
+      </div>
+    </div>
+    <!-- Start myportfolio block -->
+    <div class="card myportfolio">
+      <h3> My Portfolio </h3>
+
+      <div class="myportfolio__crypto">
+        <div class="crypto-icon d-flex">
+          <img src="assets/ethereum-(eth).png" alt="ethereum-logo">
+        </div>
+        <div class="crypto-type">
+          <h4>Ethereum</h4>
+          <p>$3,245.03</p>
+        </div>
+        <div class="crypto-percntage">
+          <span>-13.40%</span>
+          <p>0.12543 ETH</p>
+        </div>
+      </div>
+
+      <div class="myportfolio__crypto">
+        <div class="crypto-icon d-flex">
+          <img src="assets/bitcoin-(btc).png" alt="bitcoin">
+        </div>
+        <div class="crypto-type">
+          <h4>Bitcoin</h4>
+          <p>$3,245.03</p>
+        </div>
+        <div class="crypto-percntage">
+          <span>-13.40%</span>
+          <p>0.12543 BTC</p>
+        </div>
+      </div>
+
+      <div class="myportfolio__crypto">
+        <div class="crypto-icon d-flex">
+          <img src="assets/litecoin(ltc).png" alt="litcoin-logo">
+        </div>
+        <div class="crypto-type">
+          <h4>Litecoin</h4>
+          <p>$3,245.03</p>
+        </div>
+        <div class="crypto-percntage ">
+          <span class="green">-13.40%</span>
+          <p>0.12543 ITC</p>
+        </div>
+      </div>
+
+      <div class="myportfolio__crypto">
+        <div class="crypto-icon d-flex">
+          <img src="assets/solana-(sol).png" alt="solana-logo">
+        </div>
+        <div class="crypto-type">
+          <h4>Solana</h4>
+          <p>$3,245.03</p>
+        </div>
+        <div class="crypto-percntage ">
+          <span>-13.40%</span>
+          <p>0.12543 ITC</p>
+        </div>
+      </div>
+      <div class="myportfolio__crypto">
+        <div class="crypto-icon d-flex">
+          <img src="assets/binance-coin-(bnb).png" alt="binance-logo">
+        </div>
+        <div class="crypto-type">
+          <h4>Binance </h4>
+          <p>$3,245.03</p>
+        </div>
+        <div class="crypto-percntage ">
+          <span class="green">-13.40%</span>
+          <p>0.12543 ITC</p>
+        </div>
+      </div>
+    </div>
+    <!-- End myportfolio block -->
+
+    <!--start Chart block -->
+    <div class="card chart">
+      <div class="chart__header">
+        <h3> Chart </h3>
+        <div class="chart_header_buttons">
+          <a href="#" class="chart__header__cta">
+            <img src="assets/candle.png" alt="candle"></a>
+          <a href="#" class="chart__header__cta">
+            <img src="assets/bitcoin-(btc).png" alt="bitcoin">
+            <span>USD</span></a>
+        </div>
+      </div>
+      <div class="chart__header">
+        <div class="chart__header__crypto">
+          <span>Bitcoin/BTC</span>
+          <h3>$35,352.02</h3>
+        </div>
+        <ul class="chart__header__hour">
+          <li class="active"><a href="#"><span>1h</span></a></li>
+          <li><a href="#"><span>2h</span></a></li>
+          <li><a href="#"><span>3h</span></a></li>
+          <li><a href="#"><span>1d</span></a></li>
+          <li><a href="#"><span>1w</span></a></li>
+          <li><a href="#"><span>1m</span></a></li>
+        </ul>
+      </div>
+      <div class="chart__container">
+        <div class="chart__container__total">
+          <ul>
+            <li class="num">50.000</li>
+            <li class="num">40.000</li>
+            <li class="num">30.000</li>
+            <li class="num">20.000</li>
+            <li class="num">10.000</li>
+          </ul>
+        </div>
+        <div class="chart__container__graph">
+          <img src="assets/graphcharts.png" alt="graph-chart">
+        </div>
+        <div class="chart__container__hour">
+          <ul>
+            <li class="hour">19:00</li>
+            <li class="hour">19:10</li>
+            <li class="hour">19:20</li>
+            <li class="hour">19:30</li>
+            <li class="hour">19:40</li>
+            <li class="hour">19:50</li>
+            <li class="hour">19:60</li>
+            <li class="hour">19:70</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--End Chart block -->
+
+    <!-- Start live-market block -->
+    <div class="card live-market">
+      <div class="live-market__header">
+        <h3> Live Market </h3>
+        <a href="#" class="live-market__header__cta"><span>View More</span></a>
+      </div>
+      <table>
+        <tr>
+          <th>Coin</th>
+          <th>Change</th>
+          <th>Martket Cap</th>
+          <th>24h Volume</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td class="coin">
+            <img src="assets/bitcoin-(btc).png" alt="bitcoin">
+            <span>Bitcoin</span>
+          </td>
+          <td class="success">+12.00%</td>
+          <td>$3.560M</td>
+          <td>$65.20M</td>
+          <td>$48.032,32</td>
+          <td><img src="assets/more.png" alt="more-icon"></td>
+        </tr>
+      </table>
+    </div>
+    <!-- End live-market block -->
+
+  </div>
+
+
+
+
+  <!-- End Main -->
+
+
+
+</body>
+
+</html>
